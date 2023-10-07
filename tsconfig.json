@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve"
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/data/blog-data.js",
+    "src/dsrc/components/homes/home/about-area.tsxata-src/components/homes/home/blog-area.tsx-aresrc/components/homes/home/category-area.tsxa.jssrc/data/answer-question-data.tsategory-area.jsx",
+    "src/data/answer-question-data.js",
+    "src/data/blog-data-2.js",
+    "src/components/homes/home/category-area.tsx",
+    "src/components/homes/home/blog-area.tsx",
+    "src/components/homes/home-2/index.jsx",
+    "src/components/homes/home/about-area.jsx",
+    "src/data/blog-data-3.js",
+    "src/data/blog-grid-data.js"
+, "src/data/blog-masonry-data.js", "src/lib/BackToTop/index.js"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
